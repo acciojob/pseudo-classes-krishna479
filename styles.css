@@ -10,11 +10,11 @@ div{
 }
 
 li:first-child {
-    background:white;
+    background:#F00;
 	width:40%;
 }
 li:last-child{
-	background:ghostwhite;
+	background:#F00;
 	width:40%;
 }
 li:nth-child(even){

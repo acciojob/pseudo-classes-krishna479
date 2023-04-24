@@ -1,9 +1,15 @@
 /*  your css code here. If applicable */
 .first-child{
-	color:black;
+	background-color:white;
+	
+	
+}
+
+.nth-child{
+	background-color:slategray;
 }
 .last-child{
-	color:red;
+	background-color:white;
 }
 .root{
 	background-color:skyblue;

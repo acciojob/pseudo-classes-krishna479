@@ -1,16 +1,30 @@
-/*  your css code here. If applicable */
-.first-child{
-	background-color:white;
-	
-	
+:root {
+	background: skyblue;
 }
 
-.nth-child{
-	background-color:slategray;
+body :nth-child(2) {
+	color: white;
+	background: black;
 }
-.last-child{
-	background-color:white;
+
+body :nth-child(5) {
+	color: red;
 }
-.root{
-	background-color:skyblue;
+
+ul {
+	width: 55%;
+}
+
+ul :first-child, ul :last-child {
+	background: white;
+	color: black;
+}
+
+ul :nth-child(2), ul :nth-child(4) {
+	background: slategray;
+	color: white;
+}
+
+ul :nth-child(3) {
+	background: pink;
 }

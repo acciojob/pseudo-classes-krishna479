@@ -1,30 +1,27 @@
-:root {
-	background: skyblue;
+html{
+	background-color:rgb(135,206,235);
+}
+.first-para{
+	background:rgb(0,0,0);
+	color:rgb(255, 255, 255);
+}
+div{
+	color:rgb(0,0,0);
 }
 
-body :nth-child(2) {
-	color: white;
-	background: black;
+li:first-child {
+    background:white;
+	width:40%;
 }
-
-body :nth-child(5) {
-	color: red;
+li:last-child{
+	background:ghostwhite;
+	width:40%;
 }
-
-ul {
-	width: 55%;
+li:nth-child(even){
+	background:grey;
+	width:40%;
 }
-
-ul :first-child, ul :last-child {
-	background: white;
-	color: black;
-}
-
-ul :nth-child(2), ul :nth-child(4) {
-	background: slategray;
-	color: white;
-}
-
-ul :nth-child(3) {
-	background: pink;
+li:nth-child(3){
+	background:pink;
+	width:40%;
 }

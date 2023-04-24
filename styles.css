@@ -1,7 +1,10 @@
 /*  your css code here. If applicable */
-.first{
-	background-color:black;
+.first-child{
+	color:black;
 }
-.second{
-	
+.last-child{
+	color:red;
+}
+.root{
+	background-color:skyblue;
 }

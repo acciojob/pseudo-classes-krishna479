@@ -1,27 +1,37 @@
-html{
-	background-color:rgb(135,206,235);
-}
-.first-para{
-	background:rgb(0,0,0);
-	color:rgb(255, 255, 255);
-}
-div{
-	color:rgb(0,0,0);
+:root{
+	background-color:skyblue;
 }
 
-li:first-child {
-    background:#F00;
-	width:40%;
+div p:first-child{
+	background-color:black;
+	color:white;
 }
-li:last-child{
-	background:#F00;
-	width:40%;
+div p:last-child{
+	color:red;
 }
-li:nth-child(even){
-	background:grey;
-	width:40%;
+
+ul{
+	list-style:none;
 }
-li:nth-child(3){
-	background:pink;
-	width:40%;
+
+ul li:first-child{
+	background-color:white;
 }
+
+ul li:last-child{
+	background-color:white;
+}
+ul li:nth-child(even){
+	background-color:slategray;
+}
+
+
+li :nth-child(2n){
+	background-color:
+}
+
+ul li{
+	background-color:pink;
+}
+
+li:
